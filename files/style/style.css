@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(192, 187, 187);
+}
+.telaLogin{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.areaFotoPerfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fotoPerfil{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.fotoPerfil:hover{
+    background-color: yellow;
+    transition: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.linha{
+    width: 90px;
+    height: 1px;
+    background-color: black;
+}
+form{
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(139, 135, 135, 0.322);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+.telaLogin input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    outline: none;
+    box-shadow: 1px 1px 3px black;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+label p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.links{
+    margin-top: 20px;
+}
+.links a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+.links a:hover{
+    color: rgb(83, 81, 81);
+}
+button{    
+    box-shadow: 1px 1px 3px black;
+    padding: 10px;
+    width: 120px;
+    border-radius: 7px;
+    border: 1px solid #999;
+    cursor: pointer;  
+}
